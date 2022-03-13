@@ -27,3 +27,8 @@ Este es un  resumen de un ejemplo de creacion de pagina web.
 Podemos consultar el estado de la rama actual de git ejecutando
 
 - git status
+
+
+4- Finalmente, ejecutando el siguiente comando nos aseguramos que la pagina que creamos va a actualizarse de los cambios efectuados localmente, de manera automatica
+
+- browser-sync start --server --directory --files "*"
